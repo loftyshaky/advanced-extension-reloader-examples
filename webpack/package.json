@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "start": "webpack --watch --mode=development",
+        "format": "prettier --config .prettierrc.js no_bundler/**/* --write"
+    },
+    "devDependencies": {
+        "app-root-path": "^3.0.0",
+        "copy-webpack-plugin": "^9.0.1",
+        "webpack": "^5.51.1",
+        "webpack-cli": "^4.8.0"
+    },
+    "dependencies": {
+        "advanced-extension-reloader-watch-2": "0.0.3"
+    }
+}
