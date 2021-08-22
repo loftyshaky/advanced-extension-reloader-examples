@@ -1,6 +1,6 @@
 {
     "port": 6221,
-    "watch_dir": "D:\\Cloud\\Projects\\Advanced Extension Reloader Examples\\advanced-extension-reloader-examples\\no_bundler\\extensions\\manifest_2_umd",
+    "watch_dir": "D:/Cloud/Projects/Advanced Extension Reloader Examples/advanced-extension-reloader-examples/no_bundler/extensions/manifest_2_umd",
     "ext_id": "piicjboehkejlbbkjbkiahdcegpnklhn",
     "hard_paths": [
         "background",
