@@ -3,7 +3,10 @@
     "name": "Manifest 2 Extension Example UMD",
     "version": "0.0.1",
     "background": {
-        "scripts": ["listener.js", "background.js"]
+        "scripts": [
+            "listener.js",
+            "background.js"
+        ]
     },
     "options_page": "options.html",
     "key": "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDpWSTGn4GnzE825B9tIbUtdDbtIXMfYDamGjfrhtyqC+OMUbC9+lno3n1Gg3dndrbUVg9swPkaoNdlEpUHJ0cBwt2uVP6hPyg4fSadeqQXNQyJqau7ikO+uyHFp3+tN4LCbzVIBcr/lM4blwHhbGDnWE4L9zYuHnWFAhC4QeJo7QbYfuFeY5vuu7ZYq5c0MwytEIiHvA6BGLVdNPTZ2UJUDHBpHmA9/QwQ8mc65o3aCb9emSsuuCIwU0jepCzAx921/b0KgDTPi4g2Dfq+94kO0swvs9GKsIYlP+Ci/5xb84qWoFdsYmRhIuZleaqQs9nlX1zm6POrOXsOXJ8GEo6fAgMBAAECggEABNjb3AmxgRwhWRvhUJGurcRdj7duKMIFi0BoK6BK3SK6FflsbnB7haF5gLQiZX0gdxtX3q5zfjYbw0xg2XEwwbyb1jngatZhA4C2A0y/iSvfmCHKIMR9Jm0aBSe24zuP9RynmANmysBQjQop+Stt0osRs/XtTi/xHlODUrsrn3pNeQ1fvwWlQ3p5NZwIWZmd3jYem8sJjLR/6TbpPS8Pujxa/XQ6R6V0D+KpTmzuTxOe5Nmkqni3XbNh4mNqd1uwLf+1WyuKUF7Ze3JUoWNMA3F703bKAJHmXIFketuB0c5CvCitAgc2YsPrlOxRhrMA2KZDop86h3b7mVw49miloQKBgQD4HL7flmwR/RsLDnEgjN/JjdpGhjPv5hWCLykIh58J1pGjIoSjPz3OI6Y3zVL2/M1wD0FiO9W6GZ0+nlZlylDptaCCWmQXvhPO0bNpp+TXQzXxW1OkiuMyIqb2o9ZsZmCfFbssPp2oIa78rOpV+W06kSNbJM1P1QCmsLFkl8bfnQKBgQDwxD25vu31DAESk7X1N+FHKn9RcUzxxcDj4EolOFhjX2A+hK3Y2bBArxrRMrwR+TSq/YCezcQ5P5DCNUcY7snITp1JsTHmLJQ103biob4vJhja5vCS6wJvI31mEDaZhbsvv/C72Howd69lrQt8JBbRSl9OkS159Ye8e0oCBa/4awKBgQDjf5gU85xMMkRlsuxP6FwaN5N5LvzYb6QxJoT9aT2Oi8wmRTRRa1+EcHOsnvv/tHW61oIhTLQAXBQuooid9RCT+xId9Dvq+UK4VNepfWT7bIk9sXvUV/VStytY44ltA8J8nDRvsUpmK9yDmxmTk41wMjy1Cd2n4asjLMi7b9/OkQKBgQDldmJNsMYhEXvENLrqJoOxy7Lj79OhaRNZGt4Pcw/qRW/4pYL6dR4hx8ELOAs+JgAoJsp6jylAVnCkZxqHjK0LFsGZBiPEdyAZ3Jwlinkzfl+Z4RfPLeN4AJ72suUWk/m+nHPW045AuxCTGsUjX1HPzc3fl0V8QqFG5Um3e6wmWQKBgH6bVA15azZpkn0XFgHgsCLo5T9oBLJsMgWYsZq1a8sCg9YzXMaV2dush7puZLW4GOV8VRAdfCybiedf1FCsya2pezr9GYPxb7Z/scuG2Dm1TsyQQ5nQ/Ag8n81xnqyPbOaWI948ZDKff0NHybOi0dnsnCEEeviv2j4r/+a7mhCo"
