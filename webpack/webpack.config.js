@@ -52,6 +52,7 @@ module.exports = () => {
                             all_tabs: false,
                             play_sound: true,
                             after_reload_delay: 1000,
+                            manifest_path: true,
                         });
                     });
                 },
