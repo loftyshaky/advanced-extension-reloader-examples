@@ -14,6 +14,9 @@ reloader.watch();
 
 const app_root = appRoot;
 
+const ext_id = 'dphafhlelejgffkmbmnmomfehnekdnlj';
+let first_reload_completed = false;
+
 module.exports = () => {
     const paths = {
         js: path.join(app_root, 'src', 'js'),
@@ -45,15 +48,28 @@ module.exports = () => {
             {
                 apply: (compiler) => {
                     compiler.hooks.done.tap('done', () => {
-                        reloader.reload({
-                            ext_id: 'dphafhlelejgffkmbmnmomfehnekdnlj',
-                            hard_paths: ['background', 'manifest.json'],
-                            hard: false,
-                            all_tabs: false,
-                            play_sound: true,
-                            after_reload_delay: 1000,
-                            manifest_path: true,
-                        });
+                        if (first_reload_completed) {
+                            reloader.reload({
+                                ext_id,
+                                hard_paths: [`background${path.sep}`, `manifest.json`],
+                                hard: false,
+                                all_tabs: false,
+                                play_sound: true,
+                                after_reload_delay: 1000,
+                                manifest_path: true,
+                            });
+                        } else {
+                            reloader.reload({
+                                ext_id,
+                                hard: true,
+                                all_tabs: false,
+                                play_sound: true,
+                                after_reload_delay: 1000,
+                                manifest_path: true,
+                            });
+
+                            first_reload_completed = true;
+                        }
                     });
                 },
             },
