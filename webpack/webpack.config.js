@@ -51,7 +51,7 @@ module.exports = () => {
                         if (first_reload_completed) {
                             reloader.reload({
                                 ext_id,
-                                hard_paths: [`background${path.sep}`, `manifest.json`],
+                                hard_paths: ['background', 'manifest.json'],
                                 hard: false,
                                 all_tabs: false,
                                 play_sound: true,
@@ -78,3 +78,4 @@ module.exports = () => {
         devtool: false,
     };
 };
+
