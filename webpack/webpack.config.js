@@ -47,8 +47,12 @@ module.exports = () => {
             }),
             {
                 apply: (compiler) => {
-                    compiler.hooks.done.tap('done', () => {
-                        if (first_reload_completed) {
+                    compiler.hooks.done.tap('done', (stats) => {
+                        const an_error_occured = stats.compilation.errors.length !== 0;
+
+                        if (an_error_occured) {
+                            reloader.play_error_notification();
+                        } else if (first_reload_completed) {
                             reloader.reload({
                                 ext_id,
                                 hard_paths: ['background', 'manifest.json'],
