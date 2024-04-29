@@ -1,11 +1,8 @@
 {
-    "port": 6220,
+    "port": 6222,
     "watch_dir": "D:/Cloud/Projects/Advanced Extension Reloader Examples/advanced-extension-reloader-examples/no_bundler/extensions/manifest_2_es",
     "ext_id": "jepkffhnnekngedhempoflhcmoogpkph",
-    "hard_paths": [
-        "background",
-        "manifest.json"
-    ],
+    "hard_paths": ["background", "manifest.json"],
     "hard": false,
     "all_tabs": false,
     "play_sound": true,
