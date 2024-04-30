@@ -52,27 +52,12 @@ module.exports = () => {
 
                         if (an_error_occured) {
                             reloader.play_error_notification();
-                        } else if (first_reload_completed) {
-                            reloader.reload({
-                                ext_id,
-                                hard_paths: ['background', 'manifest.json'],
-                                hard: false,
-                                all_tabs: false,
-                                play_sound: true,
-                                after_reload_delay: 1000,
-                                manifest_path: true,
-                            });
                         } else {
                             reloader.reload({
                                 ext_id,
-                                hard: true,
-                                all_tabs: false,
                                 play_sound: true,
-                                after_reload_delay: 1000,
                                 manifest_path: true,
                             });
-
-                            first_reload_completed = true;
                         }
                     });
                 },
@@ -82,4 +67,3 @@ module.exports = () => {
         devtool: false,
     };
 };
-
