@@ -1,7 +1,6 @@
 {
     "scripts": {
-        "start": "webpack --watch --mode=development",
-        "format": "prettier --config .prettierrc.js no_bundler/**/* --write"
+        "start": "webpack --watch --mode=development"
     },
     "devDependencies": {
         "app-root-path": "^3.0.0",

@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "format": "prettier --config .prettierrc.js no_bundler/**/* --write"
+        "fix": "prettier **/*.js !**/listener.js --write"
     },
     "devDependencies": {
         "prettier": "^2.5.1"
