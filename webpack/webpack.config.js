@@ -15,7 +15,6 @@ reloader.watch();
 const app_root = appRoot;
 
 const ext_id = 'dphafhlelejgffkmbmnmomfehnekdnlj';
-let first_reload_completed = false;
 
 module.exports = () => {
     const paths = {
