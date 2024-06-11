@@ -50,7 +50,7 @@ module.exports = () => {
                         const an_error_occured = stats.compilation.errors.length !== 0;
 
                         if (an_error_occured) {
-                            reloader.play_error_notification();
+                            reloader.play_error_notification({ ext_id });
                         } else {
                             reloader.reload({
                                 ext_id,
