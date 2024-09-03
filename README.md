@@ -1,4 +1,4 @@
-Examples of browser extensions created to showcase the functionality of [Advanced Extension Reloader](https://bit.ly/advanced-extension-reloader-github).
+Examples of browser extensions designed to demonstrate the capabilities and features of the [Advanced Extension Reloader](https://bit.ly/advanced-extension-reloader-github).
 
 ## Build steps
 
