@@ -2,6 +2,6 @@
     "port": 6221,
     "watch_dir": "D:/Cloud/Projects/Advanced Extension Reloader Examples/advanced-extension-reloader-examples/no_bundler/extensions/manifest_3",
     "ext_id": "pacanmlfjnfoolpglkcpbpoiapkgpaph",
-    "play_sound": true,
+    "play_notifications": true,
     "manifest_path": true
 }

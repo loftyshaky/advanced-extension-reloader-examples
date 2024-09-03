@@ -54,7 +54,7 @@ module.exports = () => {
                         } else {
                             reloader.reload({
                                 ext_id,
-                                play_sound: true,
+                                play_notifications: true,
                                 manifest_path: true,
                             });
                         }
