@@ -14,7 +14,7 @@ reloader.watch();
 
 const app_root = appRoot;
 
-const ext_id = 'dphafhlelejgffkmbmnmomfehnekdnlj';
+const extension_id = 'dphafhlelejgffkmbmnmomfehnekdnlj';
 
 module.exports = () => {
     const paths = {
@@ -50,10 +50,10 @@ module.exports = () => {
                         const an_error_occured = stats.compilation.errors.length !== 0;
 
                         if (an_error_occured) {
-                            reloader.play_error_notification({ ext_id });
+                            reloader.play_error_notification({ extension_id });
                         } else {
                             reloader.reload({
-                                ext_id,
+                                extension_id,
                                 play_notifications: true,
                                 manifest_path: true,
                             });
