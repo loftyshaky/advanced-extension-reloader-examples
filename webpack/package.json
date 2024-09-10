@@ -9,6 +9,6 @@
         "webpack-cli": "^5.1.4"
     },
     "dependencies": {
-        "advanced-extension-reloader-watch-2": "1.4.1"
+        "advanced-extension-reloader-watch-2": "2.0.0"
     }
 }
