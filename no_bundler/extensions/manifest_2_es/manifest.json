@@ -2,6 +2,9 @@
     "manifest_version": 2,
     "name": "Manifest 2 Extension Example ES",
     "version": "0.0.1",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
     "background": {
         "page": "background.html"
     },

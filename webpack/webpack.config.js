@@ -24,6 +24,7 @@ module.exports = () => {
     return {
         entry: {
             background: path.join(paths.js, 'background.js'),
+            popup: path.join(paths.js, 'popup.js'),
             options: path.join(paths.js, 'options.js'),
         },
         output: {
@@ -55,7 +56,9 @@ module.exports = () => {
                             reloader.reload({
                                 extension_id,
                                 play_notifications: true,
+                                open_popup: true,
                                 manifest_path: true,
+                                open_popup_paths: ['popup']
                             });
                         }
                     });

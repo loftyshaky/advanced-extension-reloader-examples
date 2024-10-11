@@ -1,4 +1,4 @@
-﻿document.querySelector('.extension_name').innerHTML = `Extension Name: ${
+﻿document.querySelector('.extension_name').innerHTML = `This is the popup page. Extension Name: ${
     chrome.runtime.getManifest().name
 }`;
 
