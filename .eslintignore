@@ -1,0 +1,8 @@
+node_modules/*
+vite/node_modules/*/**
+webpack/node_modules/*
+vite/dist/*
+webpack/dist/*
+no_bundler
+vite
+webpack
