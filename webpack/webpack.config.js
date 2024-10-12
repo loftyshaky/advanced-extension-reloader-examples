@@ -7,7 +7,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const Reloader = require('advanced-extension-reloader-watch-2/umd/reloader');
 
 const reloader = new Reloader({
-    port: 6220,
+    port: 6221,
 });
 
 reloader.watch();

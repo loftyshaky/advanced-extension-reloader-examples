@@ -4,7 +4,7 @@ import watch from 'rollup-plugin-watch';
 
 import Reloader from 'advanced-extension-reloader-watch-2/es/reloader';
 
-const reloader = new Reloader({ port: 6224 });
+const reloader = new Reloader({ port: 6220 });
 
 reloader.watch();
 

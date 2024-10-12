@@ -1,5 +1,5 @@
 {
-    "port": 6223,
+    "port": 6224,
     "watch_dir": "D:/Cloud/Projects/Advanced Extension Reloader Examples/advanced-extension-reloader-examples/no_bundler/extensions/manifest_2_umd",
     "extension_id": "piicjboehkejlbbkjbkiahdcegpnklhn",
     "play_notifications": true,
