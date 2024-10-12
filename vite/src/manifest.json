@@ -1,0 +1,14 @@
+﻿{
+    "manifest_version": 3,
+    "name": "Vite Extension Example",
+    "version": "0.0.1",
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "key": "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCx41hdxxmYdxIdOGVZU1gXPPj/b0jLFnpq9wY439FLDlzalX47+WChtXDOmz5p2jHyEkSnyvZU8G2Us6KNZw/Hz0Fr7cE3VCK6NSUb0PXP9UeUSJQuPo9UWBe4HDE+9OMgqmiOMFFBssmavpNdkBtawd0WHjL1xAEj9aG0lCDDNval1wZmlZmDHSl/V33vqJGC5yiy9hMH2Z362FQ1z1TOFGf1FoMUEkQxuBgMlPAuofE3mMyv/fC752dfOoKy1vp7NsGpi7Vdhff3/4GIkPcD/yiMlQ8xLosMFfNr5YNHgfIt9Zq0ATymCUFLyESsMJudosdpPBmKEgjNMqP10hYPAgMBAAECggEABHhxLRIm24UKiH91VJRan2Lh4xF549ixxORmXKGLUfaPcNLW9EzlF8tGhXqzS9e2751z6j+YhzPvnRASorkXVW8o9rxn4asUoFdbkmJi+xHv9ZMJXkwmL/lyxya2Oh3PY2/E5uXh9OO4W1I0w+IuPc6nbrndj/2YBb5TjQU3+Y/qUcTqWFaqJQ8GN47JwfW7BDRvuwdcrkdf3WlOORnqOuUXascymY1YTWHu2rhJpC3lfoKQ4N3SGG2+by+gzZsZdpWL/NC8wJozt5UhrHf7ZqD1nVavRxyejs/vFPBdhmGjxZrSNNQM59ANSoECOC4j0yilbux6YbwriemXnFkQaQKBgQDcDrQI6fD+/1EzRhnuSocelr3ZJAUBEx07AtreOvUbxqkYCk61dguY7QOLX6KJji1zJKby9r7UfRHB5mhW5yw+R5Bnr7lmR5XSVXdzCXk5nYGIlaK1iUxm94gPOCslWHc93IdMBY75L9fcv9FFYScNiCKxHZPxdVKBygCK11Z4+wKBgQDO8WhLyUU/UWjoTKs/orkoA2f19LyUHDUi9pCO8QnjuabzTHP3KDcv5WM4e/aKnWsPztrw+LXeMD+sejXOV+I243G50ooZaHsOMqR2E+WODa6MfTH7fo3Ko3oq8cEiSVLNThMYzN8b2OZ1F3+C6pzAFlwW++7U5ALxeNbG51qy/QKBgH52mLJSt2PkGKctzzMpc3N5z8rdL18JvA+wuVVjbn8y8PRW4BrapxmQhCvxnvgMVERKuQMCGHMHGVBkeGwQ2FVGTU+5JgQIeapx4X6j4B3jTZDP5b0MFXNLJ88PSYRhzc0oUjy3KQ49l4FOXxbPGWFmbgF5bQ8jjHH4Q82GqTRHAoGADbKpBqsx7DkFSqsYgsPQobdoAD3M5bjgQ4oyk2OdFffJ9zzOSEPfM0ppwOljrlUxKwC0OVMdJrHm5RHJ0fi7PorbkkM/ZOMnkg8EF9TFUxvQu/flgRIlbI5ZndIWyKA13OUYGoIlGoDG8GU3yYCiE4znV5YhfvIAx98JyGyz8jkCgYEAkly5AYQFFtqRnzYajkf2qW582fj+PLMBmZUYxCschULVNSaFJIz2J2ySbSlVj4UY22uXMCqDyA+zl0T8k80+TOaODpHDIF71uynq06W5woR4/PcIWA0JeX7CcA3mLjM+Xjz0i99T2SAVJhOQY5sP5wSsli8wnRF28XVj4zIt/TA="
+}

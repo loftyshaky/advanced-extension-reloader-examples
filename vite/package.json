@@ -1,0 +1,16 @@
+{
+    "type": "module",
+    "scripts": {
+        "start": "tsc && vite build"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.277",
+        "rollup-plugin-watch": "^1.0.4",
+        "typescript": "^5.5.3",
+        "vite": "^5.4.8",
+        "vite-plugin-static-copy": "^2.0.0"
+    },
+    "dependencies": {
+        "advanced-extension-reloader-watch-2": "^2.0.1"
+    }
+}
