@@ -58,7 +58,7 @@ module.exports = () => {
                                 play_notifications: true,
                                 open_popup: true,
                                 manifest_path: true,
-                                open_popup_paths: ['popup']
+                                open_popup_paths: ['popup'],
                             });
                         }
                     });
