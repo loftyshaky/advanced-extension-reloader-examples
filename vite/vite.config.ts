@@ -38,9 +38,9 @@ export default defineConfig({
                     reloader.reload({
                         extension_id,
                         play_notifications: true,
-                        open_popup: true,
+                        always_open_popup: true,
                         manifest_path: true,
-                        open_popup_paths: ['popup'],
+                        always_open_popup_paths: ['popup'],
                     });
                 }
             },
