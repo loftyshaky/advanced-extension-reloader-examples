@@ -31,17 +31,18 @@ export default defineConfig({
         {
             name: 'build-events',
             apply: 'build',
+            closeBundle() {
+                reloader.reload({
+                    extension_id,
+                    play_notifications: true,
+                    always_open_popup: true,
+                    manifest_path: true,
+                    always_open_popup_paths: ['popup'],
+                });
+            },
             buildEnd(an_error_occured) {
                 if (an_error_occured) {
                     reloader.play_error_notification({ extension_id });
-                } else {
-                    reloader.reload({
-                        extension_id,
-                        play_notifications: true,
-                        always_open_popup: true,
-                        manifest_path: true,
-                        always_open_popup_paths: ['popup'],
-                    });
                 }
             },
         },
