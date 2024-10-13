@@ -9,6 +9,7 @@ const reloader = new Reloader({ port: 6220 });
 reloader.watch();
 
 const extension_id = 'ppeafhheghiffmmflaenlfihmeoloiad';
+let bundle_error = false;
 
 export default defineConfig({
     plugins: [
@@ -31,18 +32,24 @@ export default defineConfig({
         {
             name: 'build-events',
             apply: 'build',
-            closeBundle() {
-                reloader.reload({
-                    extension_id,
-                    play_notifications: true,
-                    always_open_popup: true,
-                    manifest_path: true,
-                    always_open_popup_paths: ['popup'],
-                });
-            },
             buildEnd(an_error_occured) {
                 if (an_error_occured) {
+                    bundle_error = true;
+
                     reloader.play_error_notification({ extension_id });
+                }
+            },
+            closeBundle() {
+                if (bundle_error) {
+                    bundle_error = false;
+                } else {
+                    reloader.reload({
+                        extension_id,
+                        play_notifications: true,
+                        always_open_popup: true,
+                        manifest_path: true,
+                        always_open_popup_paths: ['popup'],
+                    });
                 }
             },
         },
