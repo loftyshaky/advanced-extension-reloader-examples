@@ -11,6 +11,6 @@
         "vite-plugin-static-copy": "^2.0.0"
     },
     "dependencies": {
-        "advanced-extension-reloader-watch-2": "^2.0.1"
+        "advanced-extension-reloader-watch-2": "^2.1.0"
     }
 }
