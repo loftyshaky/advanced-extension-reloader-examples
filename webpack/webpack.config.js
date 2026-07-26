@@ -1,10 +1,9 @@
 const path = require('path');
 
-const appRoot = require('app-root-path').path;
-
+const { Reloader } = require('advanced-extension-reloader-watch-2/reloader');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
-const Reloader = require('advanced-extension-reloader-watch-2/umd/reloader');
+const extension_id = 'dphafhlelejgffkmbmnmomfehnekdnlj';
 
 const reloader = new Reloader({
     port: 6221,
@@ -12,36 +11,33 @@ const reloader = new Reloader({
 
 reloader.watch();
 
-const app_root = appRoot;
-
-const extension_id = 'dphafhlelejgffkmbmnmomfehnekdnlj';
-
 module.exports = () => {
     const paths = {
-        js: path.join(app_root, 'src', 'js'),
+        js: path.join(__dirname, 'src', 'js'),
     };
 
     return {
+        watch: true,
         entry: {
             background: path.join(paths.js, 'background.js'),
-            popup: path.join(paths.js, 'popup.js'),
             options: path.join(paths.js, 'options.js'),
+            popup: path.join(paths.js, 'popup.js'),
         },
         output: {
             filename: '[name].js',
-            path: path.join(app_root, 'dist'),
+            path: path.join(__dirname, 'dist'),
         },
         plugins: [
             new CopyWebpackPlugin({
                 patterns: [
                     {
-                        from: path.join(app_root, 'src', 'html'),
+                        from: path.join('src', 'html'),
                     },
                     {
-                        from: path.join(app_root, 'src', 'css'),
+                        from: path.join('src', 'css'),
                     },
                     {
-                        from: path.join(app_root, 'src', 'manifest.json'),
+                        from: path.join('src', 'manifest.json'),
                     },
                 ],
             }),

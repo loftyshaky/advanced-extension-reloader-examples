@@ -1,0 +1,12 @@
+{
+    "port": 6225,
+    "watch_dir": "D:/Cloud/Projects/Advanced Extension Reloader Examples/advanced-extension-reloader-examples/no_bundler/extensions/firefox_manifest_3_es",
+    "firefox_advanced_extension_reloader_internal_uuids": [
+        "your_advanced_extension_reloader_internal_uuid"
+    ],
+    "extension_id": "firefox-manifest-3-extension-example-es@loftyshaky",
+    "play_notifications": true,
+    "always_open_popup": true,
+    "manifest_path": true,
+    "always_open_popup_paths": ["popup"]
+}

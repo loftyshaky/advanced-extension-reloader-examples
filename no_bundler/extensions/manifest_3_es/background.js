@@ -1,6 +1,4 @@
-import Listener from './listener.js';
-
-new Listener().listen();
+import './listener.js';
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     sendResponse('This is a message from background.js: Hello, World!');

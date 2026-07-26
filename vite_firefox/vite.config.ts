@@ -6,9 +6,14 @@ import chokidar from 'chokidar';
 import { defineConfig } from 'vite';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 
-const extension_id = 'ppeafhheghiffmmflaenlfihmeoloiad';
+const extension_id = 'vite-firefox-extension-example@loftyshaky';
 
-const reloader = new Reloader({ port: 6220 });
+const reloader = new Reloader({
+    port: 6224,
+    firefox_advanced_extension_reloader_internal_uuids: [
+        'your_advanced_extension_reloader_internal_uuid',
+    ],
+});
 
 reloader.watch();
 

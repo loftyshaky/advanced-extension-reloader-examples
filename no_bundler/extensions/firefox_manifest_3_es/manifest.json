@@ -1,0 +1,18 @@
+﻿{
+    "manifest_version": 3,
+    "name": "Firefox Manifest 3 Extension Example ES",
+    "version": "0.0.1",
+    "background": {
+        "scripts": ["background.js"],
+        "type": "module"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "firefox-manifest-3-extension-example-es@loftyshaky"
+        }
+    }
+}

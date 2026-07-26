@@ -3,7 +3,7 @@
     "name": "Vite Extension Example",
     "version": "0.0.1",
     "background": {
-        "service_worker": "background.js",
+        "service_worker": "background.mjs",
         "type": "module"
     },
     "action": {
