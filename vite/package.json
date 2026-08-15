@@ -4,7 +4,7 @@
         "start": "vite build"
     },
     "dependencies": {
-        "advanced-extension-reloader-watch-2": "^2.1.0"
+        "advanced-extension-reloader-watch-2": "^3.0.1"
     },
     "devDependencies": {
         "@types/chrome": "^0.2.0",

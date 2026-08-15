@@ -3,7 +3,7 @@
         "start": "webpack --mode=development"
     },
     "dependencies": {
-        "advanced-extension-reloader-watch-2": "2.1.0"
+        "advanced-extension-reloader-watch-2": "3.0.1"
     },
     "devDependencies": {
         "app-root-path": "^3.1.0",
