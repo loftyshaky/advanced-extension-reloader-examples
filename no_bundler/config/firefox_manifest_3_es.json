@@ -6,6 +6,7 @@
     ],
     "extension_id": "firefox-manifest-3-extension-example-es@loftyshaky",
     "play_notifications": true,
+    "validate_javascript": true,
     "always_open_popup": true,
     "manifest_path": true,
     "always_open_popup_paths": ["popup"]

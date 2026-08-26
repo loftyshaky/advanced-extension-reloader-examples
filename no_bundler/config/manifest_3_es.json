@@ -3,6 +3,7 @@
     "watch_dir": "D:/Cloud/Projects/Advanced Extension Reloader Examples/advanced-extension-reloader-examples/no_bundler/extensions/manifest_3_es",
     "extension_id": "pacanmlfjnfoolpglkcpbpoiapkgpaph",
     "play_notifications": true,
+    "validate_javascript": true,
     "always_open_popup": true,
     "manifest_path": true,
     "always_open_popup_paths": ["popup"]
