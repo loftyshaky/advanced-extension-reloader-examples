@@ -6,9 +6,10 @@
         "fix_cur": "powershell -File node_modules\\@loftyshaky\\shared\\build\\ps1\\fix_cur.ps1"
     },
     "devDependencies": {
-        "@loftyshaky/shared": "^2.6.0",
+        "@loftyshaky/shared": "^2.7.1",
         "oxfmt": "^0.56.0",
         "oxlint": "^1.71.0",
+        "oxlint-tsgolint": "^7.0.2001",
         "typescript": "^6.0.3"
     }
 }
